@@ -5,8 +5,10 @@ rvm:
   - 2.3.1
   - jruby-9.0.5.0
   - jruby-9.1.5.0
-env:
-  - CODECLIMATE_REPO_TOKEN=0ff7f7fb2cfa2a18667c4e2655dcf773f91faff8d6f1642a3af3897d888bc2c7
+
+addons:
+  code_climate:
+    repo_token: 0ff7f7fb2cfa2a18667c4e2655dcf773f91faff8d6f1642a3af3897d888bc2c7
 
 before_install:
   - sh sudo add-apt-repository ppa:fontforge/fontforge; sudo apt-get update; sudo apt-get install fontforge
