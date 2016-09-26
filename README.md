@@ -1,6 +1,8 @@
 # fontforge-ruby
 A Ruby wrapper for [FontForge](https://fontforge.github.io/en-US/)
 
+[![Code Climate](https://codeclimate.com/github/TailorBrands/fontforge-ruby/badges/gpa.svg)](https://codeclimate.com/github/TailorBrands/fontforge-ruby)
+
 ```rb
 gem "fontforge-ruby"
 ```
