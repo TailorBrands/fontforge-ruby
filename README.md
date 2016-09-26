@@ -24,6 +24,7 @@ brew install fontforge
 ## Usage
 
 ```rb
+require 'fontforge_ruby'
 FontforgeRuby.convert("input_font.ttf", "output_font.svg") # Converts ttf into svg font
 ```
 
