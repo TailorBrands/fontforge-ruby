@@ -1,6 +1,6 @@
-require 'pry'
 require 'bundler/setup'
 require './lib/fontforge_ruby'
+require 'pry'
 require 'tempfile'
 
 RSpec.configure do |config|
@@ -8,6 +8,3 @@ RSpec.configure do |config|
   config.formatter = 'documentation'
   config.color = true
 end
-
-require 'codeclimate-test-reporter'
-CodeClimate::TestReporter.start

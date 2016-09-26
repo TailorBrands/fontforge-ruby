@@ -11,14 +11,9 @@ GEM
   remote: http://rubygems.org/
   specs:
     builder (3.2.2)
-    codeclimate-test-reporter (0.6.0)
-      simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.1)
     diff-lcs (1.2.5)
-    docile (1.1.5)
     ffi (1.9.14-java)
-    json (2.0.2)
-    json (2.0.2-java)
     method_source (0.8.2)
     pry (0.10.4)
       coderay (~> 1.1.0)
@@ -43,11 +38,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
-    simplecov (0.12.0)
-      docile (~> 1.1.0)
-      json (>= 1.8, < 3)
-      simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.0)
     slop (3.6.0)
     spoon (0.0.6)
       ffi
@@ -57,7 +47,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  codeclimate-test-reporter
   pry
   rake
   rspec
