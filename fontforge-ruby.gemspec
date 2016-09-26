@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'fontforge-ruby'
-  s.version     = '0.0.1'
+  s.version     = '0.1.0'
   s.platform    = Gem::Platform::RUBY
   s.date        = Date.today.to_s
   s.summary     = "A wrapper for FontForge command line tools"
