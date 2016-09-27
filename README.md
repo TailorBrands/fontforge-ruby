@@ -1,5 +1,5 @@
 # fontforge-ruby
-A Ruby wrapper for [FontForge](https://fontforge.github.io/en-US/)
+A Ruby wrapper for [FontForge](https://fontforge.github.io/en-US/) that can be used to convert fonts into different formats (TTF, OTF, WOFF, SVG)
 
 [![Build Status](https://travis-ci.org/TailorBrands/fontforge-ruby.svg?branch=master)](https://travis-ci.org/TailorBrands/fontforge-ruby)
 
