@@ -28,6 +28,19 @@ require 'fontforge_ruby'
 FontforgeRuby.convert("input_font.ttf", "output_font.svg") # Converts ttf into svg font
 ```
 
+The `convert` method will return false (not fail) if FontForge could not convert the font. You can handle this situation like so:
+
+```rb
+require 'fontforge_ruby'
+success = FontforgeRuby.convert("input_font.ttf", "output_font.svg") # Converts ttf into svg font
+
+if success
+  # continue
+else
+  raise "Could not convert font"
+end
+```
+
 ## Disclaimer
 
 This is completely unofficial and is not related to FontForge in any way.
