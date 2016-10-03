@@ -8,7 +8,7 @@ RSpec.describe FontforgeRuby do
       expect(FontforgeRuby.convert(ttf_path, svg_file.path)).to be true
     end
 
-    it "handle spaces in filepath" do
+    it "handles spaces in filepath" do
       svg_file = Tempfile.new(["OpenSans Regular", ".svg"])
       ttf_path = test_font_path("OpenSans Regular.ttf")
       expect(FontforgeRuby.convert(ttf_path, svg_file.path)).to be true
